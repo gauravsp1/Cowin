@@ -4,12 +4,10 @@ import NavBar from "./NavBar";
 import { Route, Switch } from "react-router"
 import HowItWorks from "./HowItWorks";
 
-
 function App() {
   return (
 <>
-      <NavBar />
-      
+      <NavBar />      
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />

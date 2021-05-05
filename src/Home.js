@@ -157,6 +157,7 @@ function Home() {
                 <Button id="Start" onClick={handleStart} className="Submit" variant="contained" color="primary">Start</Button>
                 <Button id="Stop" onClick={handleStop} className="Submit" variant="contained" color="primary">Stop</Button>
             </form>
+            <a href="https://www.cowin.gov.in/home" target="_blank"><h3> Go to Cowin</h3></a>
         </div>
     )
 }

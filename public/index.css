@@ -1,8 +1,18 @@
 
-h1{
-    z-index: -100;
+@media screen and (max-width: 900px) {
+    #Home{
+        margin: 10px;
+        left: 350px;
+       
+    }
 }
-
+@media screen and (max-width: 600px) {
+    #Home{
+        margin: 10px;
+        left: 50px;
+       
+    }
+}
 
 .DetailForm{
     position: relative;
@@ -19,6 +29,12 @@ h1{
     position: absolute;
     top: -36px;
     left: 25px;
+    background-color: white;
+}
+.DetailForm a{
+    position: absolute;
+    bottom: -60px;
+    left: 40%;
     background-color: white;
 }
 
@@ -78,4 +94,23 @@ h1{
     text-align: center;
     margin: 10px;
     font-size: large;
+}
+
+@media screen and (max-width: 400px) {
+    #Home{
+        margin: 10px;
+        left: 50px;
+       
+    }
+    #Start{
+        
+        top: 180px;
+      
+    }
+    
+    #Stop{
+        
+        top: 180px;
+      
+    }
 }

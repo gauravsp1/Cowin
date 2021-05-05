@@ -1,16 +1,16 @@
 import React from 'react'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { Link } from 'react-router-dom';
 import {withStyles, makeStyles} from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 
 const BootstrapButton = withStyles({
     root: {
       boxShadow: 'none',
       textTransform: 'none',
-      fontSize: 16,
+      fontSize: 16,     
       left:750,
       padding: '6px 12px',
       border: '1px solid',
@@ -57,21 +57,20 @@ function NavBar() {
     const classes = useStyles();
     return (
         <>
-            <AppBar>
+            <AppBar >
             
             <Toolbar className="nav-container">
-            {/* <h1>Hio</h1> */}
             <Typography variant="h6" className={classes.title}>
             Vaccine-Notifier
     </Typography>
-              <BootstrapButton variant="contained" color="inherit" component={Link} to="/HowItWorks" disableRipple className={classes.margin}>
+    <BootstrapButton id="Home" variant="contained" color="inherit" component={Link} to="/" disableRipple className={classes.margin}>
+              Home
+      </BootstrapButton>
+              <BootstrapButton id="Home" variant="contained" color="inherit" component={Link} to="/HowItWorks" disableRipple className={classes.margin}>
               How it works?
       </BootstrapButton>             
-              <BootstrapButton variant="contained" color="inherit" component={Link} to="/About" disableRipple className={classes.margin}>
+              <BootstrapButton id="Home" variant="contained" color="inherit" component={Link} to="/About" disableRipple className={classes.margin}>
               About
-      </BootstrapButton>
-      <BootstrapButton variant="contained" color="inherit" component={Link} to="/" disableRipple className={classes.margin}>
-              Home
       </BootstrapButton>
             </Toolbar>
             </AppBar>
