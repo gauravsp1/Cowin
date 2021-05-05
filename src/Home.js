@@ -113,6 +113,7 @@ function Home() {
 
     return (
         <div className="DetailForm">
+            <h3>Get notified by E-mail whenever slots are open</h3>
             <h2>Details</h2>
             <form className={classes.root} Validate autoComplete="on">
 
@@ -157,7 +158,8 @@ function Home() {
                 <Button id="Start" onClick={handleStart} className="Submit" variant="contained" color="primary">Start</Button>
                 <Button id="Stop" onClick={handleStop} className="Submit" variant="contained" color="primary">Stop</Button>
             </form>
-            <a href="https://www.cowin.gov.in/home" target="_blank"><h3> Go to Cowin</h3></a>
+            <a href="https://www.cowin.gov.in/home" target="_blank">Go to Cowin</a>
+            <h4>PS: Your data  will not be shared or sold to anyone</h4>
         </div>
     )
 }

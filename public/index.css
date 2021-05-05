@@ -17,7 +17,7 @@
 .DetailForm{
     position: relative;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 150px;
     border: 1px solid black;
     display: flex;
     height: auto;
@@ -35,6 +35,18 @@
     position: absolute;
     bottom: -60px;
     left: 40%;
+    background-color: white;
+}
+.DetailForm h3{
+    position: absolute;
+    top: -80px;
+    left: 12%;
+    background-color: white;
+}
+.DetailForm h4{
+    position: absolute;
+    bottom: -60px;
+    left: 0%;
     background-color: white;
 }
 
