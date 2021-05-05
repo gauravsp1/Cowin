@@ -118,7 +118,7 @@ function Home() {
 
                 <div className="Container">
                     <TextField id="Mail" label="E-Mail" name="email" value={details.email} onChange={(e) => { handleChange(e) }} />
-                    <TextField id="Pincode" label="Pincode" name="pincode" value={details.pincode} onChange={(e) => { handleChange(e) }} />
+                    <TextField id="Pincode" label="Vaccination Centre Pincode" name="pincode" value={details.pincode} onChange={(e) => { handleChange(e) }} />
                 </div>
 
                 <div className="Agegroups">
